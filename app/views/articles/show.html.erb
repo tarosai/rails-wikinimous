@@ -1,0 +1,9 @@
+<h1>Articles#show</h1>
+
+<div class="index">
+  <h1> <%= @article.title %> </h1>
+  <%= link_to 'Delete', article_path(@article), method: :delete %>
+  <p> <%= @article.content %></p>
+<%= link_to 'See all', root_path %>
+</div>
+
